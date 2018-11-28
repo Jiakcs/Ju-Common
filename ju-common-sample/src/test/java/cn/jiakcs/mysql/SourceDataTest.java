@@ -15,7 +15,6 @@ public class SourceDataTest {
     @Before
     public void init(){
         engine = new JuMysqlEngine();
-        engine.Connection("jdbc:mysql://10.10.241.101:3306/address?useUnicode=true&characterEncoding=utf8","address","uE1#$pg@T9f7x7vZbrVmLUKNFFYXpVcY");
     }
     @Test
     public void readSourceData()
